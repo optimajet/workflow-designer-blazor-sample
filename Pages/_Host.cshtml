@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="workflow-designer-blazor.styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/@@optimajet/workflow-designer@12.5.1/dist/workflowdesigner.min.css">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 </head>
@@ -30,5 +31,13 @@
     </div>
 
     <script src="_framework/blazor.server.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@@optimajet/workflow-designer@12.5.1/dist/workflowdesignerfull.min.js"
+            async defer>
+    </script>
+    <script src="js/designerInterop.js"></script>
 </body>
 </html>
